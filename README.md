@@ -56,7 +56,7 @@ Or check out the latest [release](https://github.com/hardiksa/ethermint/releases
 
 To learn how the Ethermint works from a high-level perspective, go to the [Introduction](https://torque.dev/intro/overview.html) section from the documentation. You can also check the instructions to [Run a Node](https://torque.dev/quickstart/run_node.html).
 
-For an example on how Ethermint can be used on any Cosmos-SDK chain, please refer to [Evmos](https://www.github.com/tharsis/torque).
+For an example on how Ethermint can be used on any Cosmos-SDK chain, please refer to [Evmos](https://www.github.com/hardiksa/torque).
 
 ## Community
 
@@ -75,4 +75,4 @@ For additional instructions, standards and style guides, please refer to the [Co
 
 ## Careers
 
-See our open positions on [Cosmos Jobs](https://jobs.cosmos.network/project/torque-d0sk1uxuh-remote/), [Notion](https://tharsis.notion.site), or feel free to [reach out](mailto:careers@thars.is) via email.
+See our open positions on [Cosmos Jobs](https://jobs.cosmos.network/project/torque-d0sk1uxuh-remote/), [Notion](https://hardiksa.notion.site), or feel free to [reach out](mailto:careers@thars.is) via email.
