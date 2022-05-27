@@ -48,13 +48,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/tharsis/ethermint/crypto/hd"
-	"github.com/tharsis/ethermint/encoding"
-	"github.com/tharsis/ethermint/server/config"
-	ethermint "github.com/tharsis/ethermint/types"
-	evmtypes "github.com/tharsis/ethermint/x/evm/types"
+	"github.com/hardiksa/ethermint/crypto/hd"
+	"github.com/hardiksa/ethermint/encoding"
+	"github.com/hardiksa/ethermint/server/config"
+	ethermint "github.com/hardiksa/ethermint/types"
+	evmtypes "github.com/hardiksa/ethermint/x/evm/types"
 
-	"github.com/tharsis/ethermint/app"
+	"github.com/hardiksa/ethermint/app"
 )
 
 // package-wide network lock to only allow one test network at a time
@@ -331,8 +331,8 @@ func New(l Logger, baseDir string, cfg Config) (*Network, error) {
 		ctx.Logger = logger
 
 		nodeDirName := fmt.Sprintf("node%d", i)
-		nodeDir := filepath.Join(network.BaseDir, nodeDirName, "evmosd")
-		clientDir := filepath.Join(network.BaseDir, nodeDirName, "evmoscli")
+		nodeDir := filepath.Join(network.BaseDir, nodeDirName, "torqued")
+		clientDir := filepath.Join(network.BaseDir, nodeDirName, "torquecli")
 		gentxsDir := filepath.Join(network.BaseDir, "gentxs")
 
 		err := os.MkdirAll(filepath.Join(nodeDir, "config"), 0o750)

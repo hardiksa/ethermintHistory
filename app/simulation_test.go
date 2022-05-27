@@ -32,7 +32,7 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
-	evmenc "github.com/tharsis/ethermint/encoding"
+	evmenc "github.com/hardiksa/ethermint/encoding"
 )
 
 // MakeEncodingConfig creates the EncodingConfig

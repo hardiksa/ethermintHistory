@@ -11,9 +11,9 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	ethermint "github.com/tharsis/ethermint/types"
-	"github.com/tharsis/ethermint/x/evm/statedb"
-	"github.com/tharsis/ethermint/x/evm/types"
+	ethermint "github.com/hardiksa/ethermint/types"
+	"github.com/hardiksa/ethermint/x/evm/statedb"
+	"github.com/hardiksa/ethermint/x/evm/types"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
@@ -420,7 +420,7 @@ func (k *Keeper) ApplyMessageWithConfig(ctx sdk.Context, msg core.Message, trace
 
 	// calculate a minimum amount of gas to be charged to sender if GasLimit
 	// is considerably higher than GasUsed to stay more aligned with Tendermint gas mechanics
-	// for more info https://github.com/tharsis/ethermint/issues/1085
+	// for more info https://github.com/hardiksa/ethermint/issues/1085
 	// NOTE: MinGasDenominator can not be negative as it is validated on ValidateParams
 	gasLimit := sdk.NewDec(int64(msg.Gas()))
 	minimumGasUsed := gasLimit.Mul(cfg.Params.MinGasMultiplier)

@@ -45,7 +45,7 @@ Ethereum transactions that are submitted to the `x/evm` module take part in a th
 
 JSON-RPC is a stateless, lightweight remote procedure call (RPC) protocol. Primarily this specification defines several data structures and the rules around their processing. It is transport agnostic in that the concepts can be used within the same process, over sockets, over HTTP, or in many various message passing environments. It uses JSON (RFC 4627) as a data format.
 
-Ethermint supports all standard web3 [JSON-RPC](https://evmos.dev/api/json-rpc/server.html) APIs. For more info check the client section.
+Ethermint supports all standard web3 [JSON-RPC](https://torque.dev/api/json-rpc/server.html) APIs. For more info check the client section.
 
 ## Transaction Logs
 
