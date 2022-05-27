@@ -15,10 +15,10 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/tendermint/tendermint/libs/log"
 	tmrpctypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/tharsis/ethermint/rpc/types"
-	"github.com/tharsis/ethermint/server/config"
-	ethermint "github.com/tharsis/ethermint/types"
-	evmtypes "github.com/tharsis/ethermint/x/evm/types"
+	"github.com/hardiksa/ethermint/rpc/types"
+	"github.com/hardiksa/ethermint/server/config"
+	ethermint "github.com/hardiksa/ethermint/types"
+	evmtypes "github.com/hardiksa/ethermint/x/evm/types"
 )
 
 // BackendI implements the Cosmos and EVM backend.

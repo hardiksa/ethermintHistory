@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tharsis/ethermint/x/feemarket/types"
+	"github.com/hardiksa/ethermint/x/feemarket/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

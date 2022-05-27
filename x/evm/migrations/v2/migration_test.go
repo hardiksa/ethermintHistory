@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	"github.com/stretchr/testify/require"
-	"github.com/tharsis/ethermint/app"
-	"github.com/tharsis/ethermint/encoding"
-	v2 "github.com/tharsis/ethermint/x/evm/migrations/v2"
-	"github.com/tharsis/ethermint/x/evm/types"
+	"github.com/hardiksa/ethermint/app"
+	"github.com/hardiksa/ethermint/encoding"
+	v2 "github.com/hardiksa/ethermint/x/evm/migrations/v2"
+	"github.com/hardiksa/ethermint/x/evm/types"
 	"testing"
 )
 

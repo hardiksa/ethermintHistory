@@ -9,15 +9,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tharsis/ethermint/app"
+	"github.com/hardiksa/ethermint/app"
 
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	evmkeeper "github.com/tharsis/ethermint/x/evm/keeper"
-	"github.com/tharsis/ethermint/x/evm/statedb"
+	evmkeeper "github.com/hardiksa/ethermint/x/evm/keeper"
+	"github.com/hardiksa/ethermint/x/evm/statedb"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/consensus/ethash"
@@ -33,7 +33,7 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
 	"github.com/tendermint/tendermint/version"
-	"github.com/tharsis/ethermint/crypto/ethsecp256k1"
+	"github.com/hardiksa/ethermint/crypto/ethsecp256k1"
 )
 
 var (
